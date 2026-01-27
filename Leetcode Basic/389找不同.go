@@ -1,6 +1,5 @@
 package main
 import (
-	"strings"
 	"fmt"
 )
 
@@ -16,5 +15,5 @@ func findTheDifference(s string, t string) byte {
 }
 
 func main(){
-	fmt.Println(res)
+	fmt.Printf("%c",findTheDifference("abcd","abcde"))
 }
