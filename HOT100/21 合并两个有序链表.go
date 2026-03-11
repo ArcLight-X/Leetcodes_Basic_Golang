@@ -10,6 +10,7 @@ type ListNode struct {
 }
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
+	//迭代法！非递归法
 	//一个链表为空就不用合并
 	if list1 == nil {
 		return list2
@@ -26,3 +27,4 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		return list2
 	}
 }
+
